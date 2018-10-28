@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2af6f327be8547139f6f790f85c93a6d" Name="Diagram1">
+        <EntityTypeShape EntityType="FSDModel.ITEM" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="FSDModel.PODETAIL" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FSDModel.POMASTER" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FSDModel.SUPPLIER" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="FSDModel.FK__PODETAIL__ITCODE__797309D9" ManuallyRouted="false" />
+        <AssociationConnector Association="FSDModel.FK__PODETAIL__PONO__787EE5A0" ManuallyRouted="false" />
+        <AssociationConnector Association="FSDModel.FK__POMASTER__SUPLNO__75A278F5" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
